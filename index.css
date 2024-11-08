@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #F4F4F4;
+    height: 3017px;
+    flex-direction: column;
+}
+
+#header {
+    width: 100vw;
+    height: 80px;
+    background-color: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-logo {
+    width: 50px;
+    height: 42px;
+}
+
+#footer {
+    background-color: #101010;
+    width: 100vw;
+    height: 228px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 227px;
+}
+
+#footer-logo {
+    background-color: #101010;
+    width: 81px;
+    height: 68px;
+}
+
+#footer-section {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-icon {
+    width: 167px;
+    height: 44px;
+}
+
+#intro-section {
+    margin-top: 120px;
+    background-color: #f4f4f4;
+    height: 2897px;
+}
+
+#intro-title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87.77px;
+    color: #303030;
+    text-align: center;
+}
+
+#intro-sub-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #ababab;
+    text-align: center;
+}
+
+#intro-image-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 21px;
+}
+
+.intro-image{
+    width: 284px;
+    height: 400px;
+    transition: 1s;
+}
+.intro-image:hover{
+    transform: scale(1.3);
+}
+#map-pic {
+    width: 692px;
+    height: 845px;
+}
+
+#tour-day {
+    font-weight: 700;
+    font-size: 24px;
+    color: #ababab;
+}
+
+#tour-destination {
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+}
+
+#tour-agency {
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+}
+
+#d1 {
+    margin: 0;
+    background-color: black;
+    color: #16A94A;
+    height: 56px;
+    width: 56px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#D1 {
+    margin: 0;
+    display: flex;
+    justify-content: start;
+    margin-left: 27px;
+    height: 37px;
+    width: 56px;
+    border-left: 1px dotted black;
+}
+
+#list1 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #303030;
+}
+
+#list2 {
+    font-weight: 700;
+    font-size: 12px;
+    color: #777777;
+    margin-bottom: 60px;
+}
+
+.list {
+    width: 231px;
+    height: 559px;
+    order: -1;
+}
+
+.map {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin-top: 240px;
+    margin-left: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+
+}
+
+.title-day {
+    height: 157px;
+    width: 358px;
+}
+
+.D {
+    height: 559px;
+    order: -1, 0;
+    align-self: flex-end;
+    justify-self: flex-start;
+    width: 56px;
+
+}
+
+#map-pic {
+    order: -1;
+}
+
+.whole-div {
+    margin-left: 240px;
+}
+
+.list-and-d {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    justify-content: start;
+    margin-top: 129px;
+}
+
+#price-agency {
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+
+}
+
+#price {
+    font-weight: 700;
+    font-size: 24px;
+    color: #ababab;
+
+}
+
+.menu {
+    height: 607px;
+    width: 789px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu- {
+    display: flex;
+    justify-content: center;
+    margin-top: 240px;
+}
+
+li {
+    font-weight: 500;
+    font-size: 24px;
+    color: #777777;
+}
+
+p {
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+}
+
+.luxury {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    width: 285px;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.luxury:hover {
+    border: 2px solid #18BA51;
+}
+
+.pack {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    width: 285px;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.pack:hover {
+    border: 2px solid #18BA51;
+}
+
+.luxury-pack {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 40px, 86px, 138px, 40px;
+}
+
+.started-pack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.price-title {
+    display: flex;
+    flex-direction: column;
+    height: 157px;
+    width: 299px;
+    text-align: center;
+}
+
+.packs {
+    display: flex;
+    gap: 20px;
+}
+
+#luxury-pack-money {
+    height: 39px;
+    width: 205px;
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: #303030;
+    margin-top: 40px;
+}
+
+#Started-pack-money {
+    height: 39px;
+    width: 205px;
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: #303030;
+    margin-top: 5px;
+}
+
+.order-button {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    gap: 10px;
+    margin-top: 240px;
+    background-color: #171717;
+    color: white;
+    width: 100vw;
+}
+
+#lx {
+    color: #303030;
+    margin-bottom: 28px;
+}
+
+#sp {
+    color: #303030;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 28px;
+}
+
+#order-button {
+    background-color: #18BA51;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#are-you-ready {
+    font-weight: 700;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.title-pack {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 40px, 86px, 158px, 40px;
+}
