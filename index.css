@@ -26,7 +26,12 @@ main {
     width: 50px;
     height: 42px;
 }
-
+.whole-map {
+    height: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 #footer {
     background-color: #101010;
     width: 100vw;
@@ -161,11 +166,9 @@ main {
     flex-direction: row-reverse;
     width: 1200px;
     margin-top: 240px;
-    margin-left: 400px;
     justify-content: center;
     align-items: center;
     gap: 150px;
-
 }
 
 .title-day {
@@ -184,10 +187,6 @@ main {
 
 #map-pic {
     order: -1;
-}
-
-.whole-div {
-    margin-left: 240px;
 }
 
 .list-and-d {
